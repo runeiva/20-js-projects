@@ -12,7 +12,7 @@ h1, h4 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 4em;
 }
 
 /* Loader*/
@@ -31,3 +31,25 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Img Container */
+.img-container {
+    margin: 10px 30%;
+}
+
+.img-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Media Queries */
+@media screen and (max-width= 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    .img-container {
+        margin: 10px;
+    }
+}
+
